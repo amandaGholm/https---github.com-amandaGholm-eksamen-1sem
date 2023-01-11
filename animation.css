@@ -1,0 +1,146 @@
+
+#screen{
+   position: relative;
+   width: 100%;
+   aspect-ratio: 16/9;
+   height: 100vh;
+}
+
+
+#bobble_container{
+   position: absolute;
+      width: 15%;
+      aspect-ratio: 1/1;
+      left: 3%;
+      top: 30%;
+   }
+   #bobble_sprite{
+      background-image: url(100.svg);
+      background-size: cover;
+     width: 100%;
+     height: 100%;
+   }
+
+#bobble_container1{
+      position: absolute;
+         width: 20%;
+         aspect-ratio: 1/1;
+         left: -9%;
+         top: 40%;
+      }
+   #bobble_sprite1{
+         background-image: url(100.svg);
+         background-size: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+#bobble_container2{
+         position: absolute;
+            width: 10%;
+            aspect-ratio: 1/1;
+            left: 33%;
+            top: 30%;
+         } 
+   #bobble_sprite2{
+            background-image: url(100.svg);
+            background-size: cover;
+           width: 100%;
+           height: 100%;
+         }
+
+#bobble_container3{
+            position: absolute;
+               width: 16%;
+               aspect-ratio: 1/1;
+               left: 46%;
+               top: 80%;
+            } 
+   #bobble_sprite3{
+               background-image: url(100.svg);
+               background-size: cover;
+              width: 100%;
+              height: 100%;
+            }
+
+#bobble_container4{
+               position: absolute;
+                  width: 23%;
+                  aspect-ratio: 1/1;
+                  left: 69%;
+                  top: 0%;
+               }  
+   #bobble_sprite4{
+                  background-image: url(100.svg);
+                  background-size: cover;
+                 width: 100%;
+                 height: 100%;
+               }
+
+#bobble_container5{
+ position: absolute;
+ width: 6%;
+ aspect-ratio: 1/1;
+ left: 30%;
+ top: 0%;}           
+   #bobble_sprite5{
+                     background-image: url(100.svg);
+                     background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                  }
+
+.bouncing {
+    animation-name: bouncing;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes bouncing {
+   0%{
+      translate: 0 -350%;
+     }
+
+     50%{
+      translate: 0 250%;
+     }
+     100%{
+     translate: 0 -350% ;
+     }
+  }
+
+  .bouncing2 {
+   animation-name: bouncing2;
+   animation-duration: 50s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+ }
+ @keyframes bouncing2 {
+   0%{
+     translate: 0 300%;
+   }
+   50% {
+       translate: 0 -50%
+   }
+   100%{
+       translate:0 300%;
+   }
+ }
+  .bouncing1{
+   animation-name: bouncing1;
+   animation-duration: 30s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes bouncing1 {
+0%{
+translate: 0 0%;
+}
+50%{
+   translate: 0 -250%;
+}
+100%{
+translate: 0 0% ;
+}
+}

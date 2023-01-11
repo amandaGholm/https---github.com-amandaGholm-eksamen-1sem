@@ -1,0 +1,1 @@
+console.log("jeg er i start")
